@@ -1,4 +1,3 @@
-
 eye=0
 
 ###############################
@@ -30,6 +29,9 @@ if v == str("x") :
 if eye > 1 :
     print ('ERROR: Please enter only one x')
 
+if v != "x" and i != "x" and r != "x":
+  print("Error only one value")
+
 if v == "x":
         print(str(float( r * i)) + " Volts")
 
@@ -39,4 +41,3 @@ if i == "x":
 
 if r == "x":
         print (str(float(v/i)) + " Ohms")
-

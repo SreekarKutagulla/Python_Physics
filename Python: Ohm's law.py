@@ -38,5 +38,5 @@ if i == "x":
 
 
 if r == "x":
-        print (str(float(v/c)) + " Ohms")
+        print (str(float(v/i)) + " Ohms")
 
